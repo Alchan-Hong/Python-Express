@@ -1,0 +1,9 @@
+a = int(input('음식 비용: '))
+b = input('팁 비율: ')
+x = b[:-1]
+
+c = a+a*(int(x)/100)
+
+print("총액: {} 달러".format(int(c),))
+
+

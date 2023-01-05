@@ -1,0 +1,8 @@
+a = int(input('시간을 입력하시오: '))
+b = int(input('분을 입력하시오: '))
+
+c = int(a*3600)
+d = int(b*60)
+f = int(c+d)
+
+print(a, '시간', b, '분은', f, '초입니다.')

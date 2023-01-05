@@ -1,0 +1,9 @@
+x = 10
+y = 100
+print("a",x,"b")
+print("a%db"%(x))
+print("a{}{}b".format(x,y))
+print("a{1}{0}b".format(x,y))
+print(f"a{x}{y}b")
+
+
