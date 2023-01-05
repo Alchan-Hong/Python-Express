@@ -1,0 +1,15 @@
+from math import sqrt
+
+a = int(input("a를 입력하시오: "))
+b = int(input("b를 입력하시오: "))
+c = int(input("c를 입력하시오: "))
+
+r = (b**2 - 4*a*c)
+
+if r > 0:
+    print(f"실근은 {(-b+(sqrt(r)))/(2*a)}과 {(-b-(sqrt(r)))/(2*a)}입니다.")
+elif r == 0:
+    print(f"실근은 {(-b+(sqrt(r)))/(2*a)} 입니다.")
+else:
+    print("실근이 존재하지 않습니다.")
+

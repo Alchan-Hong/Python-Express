@@ -1,0 +1,9 @@
+
+user_height = int(input("키를 입력하시오(cm): "))
+
+user_age = int(input("나이를 입력하시오: "))
+
+if user_height >= 140 and user_age >= 10:
+    print("타도 좋습니다.")
+else:
+    print("죄송합니다.")

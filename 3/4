@@ -1,0 +1,8 @@
+o = int(input("원의 반지름: "))
+
+if o < 0:
+    print("잘못된 값입니다.")
+else:
+    n = o**2*3.14
+    print("원의 면적: {}".format(n))
+

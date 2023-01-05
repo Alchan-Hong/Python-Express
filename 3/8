@@ -1,0 +1,11 @@
+height, weight = map(int, input("키와 체중을 입력하시오: ").split())
+
+average = (height-100) * 0.9
+
+
+if weight >= average:
+    print("과체중입니다.")
+else:
+    print("표준 체중입니다.")
+
+

@@ -1,0 +1,33 @@
+import random
+
+x = random.randint(1, 10)
+y = random.randint(1, 10)
+z = random.randint(1, 4)
+
+
+if z == 1:
+    answer = int(input("{} + {}의 값은? ".format(x,y)))
+    if x+y == answer:
+        print("맞았습니다.")
+    else:
+        print("틀렸습니다.")
+elif z == 2:
+    answer = int(input("{} - {}의 값은? ".format(x,y)))    
+    if x-y == answer:
+        print("맞았습니다.")
+    else:
+        print("틀렸습니다.")
+elif z == 3:
+    answer = int(input("{} * {}의 값은? ".format(x,y)))
+    if x*y == answer:
+        print("맞았습니다.")
+    else:
+        print("틀렸습니다.")
+elif z == 4:
+    answer = int(input("{} / {}의 값은? ".format(x,y)))
+    if x/y == answer:
+        print("맞았습니다.")
+    else:
+        print("틀렸습니다.")
+
+

@@ -1,0 +1,10 @@
+x, y, z = map(int, input("3개의 정수를 입력하시오: ").split())
+
+if x > y and y > z:
+    print("제일 작은 정수는 {}입니다.". format(z))
+elif y > x and z > x:
+    print("제일 작은 정수는 {}입니다.". format(x))
+else:
+    print("제일 작은 정수는 {}입니다.". format(y))
+
+
