@@ -1,0 +1,14 @@
+import turtle
+import math
+
+t = turtle.Turtle()
+t.shape("turtle")
+
+for i in range(360):
+    t.goto(i, math.sin(math.pi*i/180)*200) #200을 곲하는 이유는 y값이 각도에 비례하기 때문에 아예 큰 값을 곱해서 y각도를 크게 만든 것
+
+
+turtle.mainloop()
+turtle.bye()
+
+

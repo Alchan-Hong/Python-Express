@@ -1,0 +1,9 @@
+n = 1
+
+while n**2 > 0: #True:
+    if n**2 >= 500:
+        print(n)
+        break
+    n = n + 1
+    
+

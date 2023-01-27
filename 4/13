@@ -1,0 +1,14 @@
+x = int(input("몇 번째 항까지 구할까요? "))
+
+a = 0
+b = 1
+
+print(a, b, end = " ")
+
+for i in range(0, x-1):
+    c = a+b
+    a = b
+    b = c
+    print(c, end = " ")
+
+
