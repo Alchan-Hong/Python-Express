@@ -1,0 +1,6 @@
+def get_peri(radius):
+    area = 2*3.14*radius
+    return area
+
+print("get_peri() = ", get_peri(5.0))
+print("get_peri(4.0) = ", get_peri(4.0))

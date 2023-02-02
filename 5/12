@@ -1,0 +1,12 @@
+
+def getSorted():
+    if x > y:
+        print(f"({y}, {x})")
+    else:
+        print(f"({x}, {y})")
+
+x = int(input("첫 번째 정수: "))
+y = int(input("두 번째 정수: "))
+
+getSorted()
+

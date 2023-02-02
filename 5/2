@@ -1,0 +1,28 @@
+import math
+
+def add(a, b):
+    add = a+b
+    print(f"({a} + {b}) = ", a+b)
+    return add
+
+
+def sub(a, b):
+    sub = a-b
+    print(f"({a} - {b}) = ", a-b)
+    return sub
+
+def mul(a, b):
+    mul = a*b
+    print(f"({a} * {b}) = ", a*b)
+    return mul
+
+def div(a, b):
+    div = a/b
+    print(f"({a} / {b}) = ", a/b)
+    return div
+
+
+x = int(input("첫 번째 정수를 입력하시오: "))
+y = int(input("두 번째 정수를 입력하시오: "))
+
+add(x, y), sub(x, y), mul(x, y), div(x, y)

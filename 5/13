@@ -1,0 +1,33 @@
+import random
+
+def dice_game():
+    print("========== dice_game() 호출 ==========")
+
+    human = random.randint(1, 6)
+    computer = random.randint(1, 6)
+
+    print(f"인간: 주사위값 = {human}")
+    print(f"컴퓨터: 주사위값 = {computer}")
+
+    if human > computer:
+        print("인간 승리")
+    elif computer > human:
+        print("컴퓨터 승리")
+
+    print("========== dice_game() 복귀 ==========")
+
+    x = input("중단할까요? Y/N")
+
+    if x == 'N' or x == 'n':
+        return dice_game()
+    elif x == 'Y' or x == 'y':
+        return 0
+
+    return 0
+
+
+dice_game()
+
+
+
+

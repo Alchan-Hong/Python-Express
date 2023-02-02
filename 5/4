@@ -1,0 +1,26 @@
+def getGrade(score):
+
+    if score >= 90:
+        grade = "성적은 A 입니다."
+        return grade
+    
+    elif score >= 80:
+        grade = "성적은 B 입니다."    
+        return grade
+
+    elif score >= 70:
+        grade = "성적은 C 입니다."
+        return grade
+
+    elif score >= 60:
+        grade = "성적은 D 입니다." 
+        return grade
+
+    else:
+        grade = "성적은 F 입니다."  
+        return grade
+        
+
+score = int(input("점수를 입력하세요: "))
+
+print(getGrade(score))
